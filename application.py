@@ -3,10 +3,10 @@ from bs4 import BeautifulSoup
 import requests
 import os
 
-app=Flask(__name__)
+application=Flask(__name__)
 
 
-@app.route('/', methods=['POST','GET'])
+@application.route('/', methods=['POST','GET'])
 def query():
     if request.method=="GET":
         return render_template("/queryform.htm")
@@ -43,4 +43,4 @@ def query():
         
 
 if __name__=="__main__":
-    app.run(debug=True)
+    application.run(debug=True)
