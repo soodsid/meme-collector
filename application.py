@@ -36,11 +36,8 @@ def query():
                 f.write(imgdata)
                 
         return render_template("/queryform.htm", res="done")
-            
 
-        
-            
-        
+# conflict maaker
 
 if __name__=="__main__":
     application.run(host='0.0.0.0', port=8000)
