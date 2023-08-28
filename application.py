@@ -39,8 +39,8 @@ def query():
             
 
         #checking if the conflict is working
-            
-        
+
+        # conflict maaker
 
 if __name__=="__main__":
     application.run(host='0.0.0.0', port=8000)
