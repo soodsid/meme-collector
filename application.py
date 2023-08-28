@@ -38,7 +38,7 @@ def query():
         return render_template("/queryform.htm", res="done")
             
 
-        
+        #checking if the conflict is working
             
         
 
